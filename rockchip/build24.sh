@@ -70,7 +70,6 @@ PACKAGES="$PACKAGES luci-app-nlbwmon"
 PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-app-passwall"
 PACKAGES="$PACKAGES luci-app-taskplan"
-PACKAGES="$PACKAGES luci-app-ttyd"
 PACKAGES="$PACKAGES luci-app-turboacc"
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
